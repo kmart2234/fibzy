@@ -1,0 +1,16 @@
+version: '3.4'
+
+services:
+
+  fibonacci:
+    image: kmart2234/fibzy:1.0.0
+    ports:
+      - 8001:8001
+    networks:
+      - fibzy-net1
+    deploy:
+      labels:
+        local.description: "fibzy API"
+
+networks:
+  fibzy-net1:

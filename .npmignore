@@ -1,3 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
 # Logs
 logs
 *.log
@@ -65,3 +67,4 @@ typings/
 
 # Temp
 /Fibzy  - Project Notes.txt
+
