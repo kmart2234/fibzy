@@ -2,14 +2,16 @@
 
 ### Introduction
 Fibzy is a RESTful web service that accepts a number (n) as input and returns the (n) Fibonacci sequence, starting from 
-the first position, 0. Fibzy will return the Fibonacci sequences until exceeds the upper limit of the floating point numbers - Infinity (1.797693134862315E+308) 
+the first position, 0. Fibzy will return the Fibonacci sequences until it exceeds the upper limit of the floating point numbers - Infinity (1.797693134862315E+308) 
 
 Fibzy is lightweight and easily deployable, whether you are deploying to physical hardware, a virtual machine or as a container. It is built on Node.js using the Express.js web framework.
 
-### Perquisites
+### Prerequisites
  To install and run Fibzy locally, you will need to have either Node.js or Docker installed on your system. Both Node.js and Docker can run on Windows, macOS and Linux.
 - Download and install the latest version of [Node.js](https://nodejs.org/en/) directly from their site.
+
 OR
+
 - Download and install the latest version of [Docker Community Edition](https://www.docker.com/get-docker) directly from their site.
 
 ### Installation
@@ -38,7 +40,7 @@ If you would like to test, but do not have your own Docker environment you can u
 - At the end of the URL, paste `:8001/v1/{n}` replacing {n} with your number. (ex. `:8001/v1/5`)
 
 ##### Playing with Fibzy without installing
-I have setup a demo environment where you can test the functionality using your browser or a REST client like Postman. The demo IP address will work with either method (GET or POST) which are listed in the **Methods** section below.
+I have setup a demo environment where you can test the functionality using your browser or a REST client like Postman. The demo IP address will work with either method (GET or POST) which are listed in the **API Methods** section below.
 
 http://206.128.152.248:8001/v1/
 
@@ -57,7 +59,7 @@ When Fibzy starts, you will see *"Fibzy started and is listening on port 8001"* 
 Once you have Fibzy started, connect to it using a web browser `http://{yourBaseURL}:8001/v1/{n}` or an application like [Postman](https://www.getpostman.com/docs/v6/) or [cURL](https://curl.haxx.se/)
 
 
-#### API Methods
+### API Methods
 
 | GET Method |  |
 | --- | --- |
