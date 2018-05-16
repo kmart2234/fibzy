@@ -39,12 +39,6 @@ If you would like to test, but do not have your own Docker environment you can u
 - Once your build completes, click on the 8001 link (You will get an error `Cannot GET /`).
 - At the end of the URL, paste `:8001/v1/{n}` replacing {n} with your number. (ex. `:8001/v1/5`)
 
-##### Playing with Fibzy without installing
-I have setup a demo environment where you can test the functionality using your browser or a REST client like Postman. The demo IP address will work with either method (GET or POST) which are listed in the **API Methods** section below.
-
-http://206.128.152.248:8001/v1/
-
-
 ### Running Fibzy with Node.js Installed
 Starting Fibzy is easy, just follow the steps below and you will be ready to go.
 - From a command prompt switch to the Fibzy working directory (make sure you are in the directory that contains the package.json file) and execute the command below.
